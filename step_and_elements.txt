@@ -1,0 +1,19 @@
+element_1 == announcement bar{3 buttons and star icons and button animation.}
+element_2 == Nav bar { logo, number, 1 button and its animation}
+element_3 == Menus{Menus and menus dropdown}
+element_4 == Hero section{image ,video , text and coupon}
+element_5 == {form and its button and thankyou page.}
+element_6 == Service section{4 services boxes and name and images}
+element_7 == banner{content box, background image}
+element_8 == content 
+element_9 == Our gallery section
+element_10 == map section announcement bar
+element_11 == coupon section{coupon left content and coupon slider
+element_12 == Our process section 
+element_13 == banner and form
+element_14 == sweepstakes announcement bar
+element_15 == review section
+element_16 == affilates 
+element_17 == content box{background image banner}
+element_18 == footer section 
+element_19 == footer bar
