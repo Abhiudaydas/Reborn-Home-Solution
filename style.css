@@ -1,20 +1,29 @@
+.body{
+  font-family: "Poppins", sans-serif;
+}
 .ann_bar {
       width: 100%;
       height: 60px;
       background-color: #0C2A46;
       position: fixed;
-      z-index: 1000;
-      display: flex;
-      align-items: center;
+      
+      
+      
       
     }
+.ann_container{
+  width: 1110px;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .dropdown_wrapper {
   position: relative;
   display: inline-block;
 }
 
-.btn {
+.btn-dropdown {
 position: relative;
 overflow: hidden;
 z-index: 1;
@@ -25,16 +34,18 @@ z-index: 1;
   background-color: #B41C39;
   text-transform: uppercase;
   font-family: "Poppins";
-  padding: 6px 16px;
-  width: 224px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 228px;
   color: white;
   display: flex;
-  justify-content: space-between;
+  gap: 7px;
   align-items: center;
   border: 2px solid #B41C39;
   cursor: pointer;
+  border-bottom: none;
 }
-.btn::after {
+.btn-dropdown::after {
   content: "";
   position: absolute;
   top: 0;
@@ -46,24 +57,26 @@ z-index: 1;
   transform-origin: left;
   transition: transform 0.3s ease-out;
   z-index: -1;
+  
 }
 
-    .btn:hover::after {
+    .btn-dropdown:hover::after {
       transform: scaleX(1);
     }
 
-.btn:hover{
+.btn-dropdown:hover{
     color: #B41C39
 }
     
 .submenu {
   display: none;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: white;
   list-style: none;
-  min-width: 222px;
+  min-width: 228px;
   border: 2px solid #B41C39;
   z-index: 999;
   padding: 0px;
@@ -74,8 +87,9 @@ z-index: 1;
   display: block;
   
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   min-height: 60px;
+  line-height: 21px;
   color: black;
   text-decoration: none;
   border-bottom: 2px solid #B41C39;
@@ -104,5 +118,96 @@ z-index: 1;
 
 .submenu li a:hover .chevron-submenu {
   color: white;
+}
+
+
+
+.ann_review .star_icon{
+  color:#E8B835;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.review_link .review_chevron{
+  transform: rotate(270deg);
+}
+.review_link a{
+ text-decoration: none; 
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+
+}
+.review_link a:hover{
+  text-decoration: underline;
+  
+
+}
+
+.ann_btn{
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+.primary_btn{
+  position: relative;
+  height: 60px;
+  background-color: white;
+  color: #B41C39;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #B41C39;
+  z-index: 10;
+}
+.primary_btn::after{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #B41C39;
+  transform: scaleX(0);
+  content: "";
+  width: 100%;
+  height: 100%;
+  transform-origin: left;
+  transition: transform 0.3s ease-out;
+  z-index: -1;
+}
+.primary_btn:hover::after{
+  transform: scaleX(1);
+}
+.primary_btn:hover{
+  color: white;
+}
+
+.secondary_btn{
+  position: relative;
+  height: 60px;
+  border: 0px;
+  background-color: #80CAC5;
+  color: #0C2A46;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 10;
+}
+.secondary_btn::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-color: white;
+  border: 2px solid #80CAC5;
+  z-index: -1;
+  transition: transform 0.3s ease-out;
+
+}
+.secondary_btn:hover::after{
+  transform: scaleX(1);
 }
 
