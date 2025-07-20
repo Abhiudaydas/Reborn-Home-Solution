@@ -2,6 +2,9 @@
 .body{
   font-family: "Poppins", sans-serif;
 }
+*{
+  font-family: "Poppins"
+}
 .ann_bar {
       width: 100%;
       height: 60px;
@@ -240,6 +243,18 @@ min-height: 45px;
 }
 
 /* nav bar  */
+.nav_bar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_box{
+  width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo img{
   width: 345px;
 height: 115px;
@@ -305,3 +320,40 @@ line-height: 23px;
 .schedular_btn i{
   padding-right: 10px;
 }
+/* Menu bar */
+
+
+.menu_bar{
+  background-color: rgba(128, 202, 197, 0.20);
+  height: 60px;
+}
+.menu_box{
+  
+  height: 60px;
+  width: 1110px;
+  
+}
+.nav_link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  
+}
+.menu_chevron{
+  width: 11px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.nav_link:hover .chevron-icon {
+  transform: rotate(180deg);
+  transition: transform 0s ease;
+}
+
+
