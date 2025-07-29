@@ -1008,7 +1008,7 @@ text-align: center;
 }
 .map_cta{
   display: flex;
-height: 150px;
+height: 200px;
 padding: 25px;
 justify-content: center;
 align-items: center;
@@ -1258,4 +1258,157 @@ font-style: normal;
 font-weight: 400;
 line-height: 23px; /* 127.778% */
 text-transform: uppercase;
+}
+
+
+.process_box{
+  display: flex;
+padding: 80px 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: var(--Gradients-bg-gradient, linear-gradient(180deg, rgba(255, 255, 255, 0.15) 12.73%, rgba(128, 202, 197, 0.15) 100%));
+height: 713px;
+}
+.main_process{
+display: flex;
+width: 1110px;
+flex-direction: column;
+align-items: center;
+
+height: 553px;
+}
+.main_process h5{
+  color: var(--Solids-Secondary, #18506D);
+text-align: center;
+/* Desktop/H5 */
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 37px; /* 132.143% */
+text-transform: uppercase;
+}
+.main_process h4{
+  color: var(--Neutral-Black, #000);
+text-align: center;
+/* Desktop/H4 */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 113.889% */
+text-transform: capitalize;
+padding-bottom: 30px;
+}
+.accordian_process{
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.block_1{
+  display: flex;
+align-items: center;
+gap: 1px;
+align-self: stretch;
+background: var(--Neutral-White, #FFF);
+box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.05);
+width: 1108px;
+height: 67px;
+
+}
+.icon_left{
+  display: flex;
+width: 108px;
+height: 65px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+height: 65px;
+width: 108px;
+border-right: 4px solid #80CAC5;
+
+
+}
+.accordion_icon{
+  color: var(--Solids-Primary, #B41C39);
+text-align: center;
+font-family: "Font Awesome 6 Pro";
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+
+}
+.content_para{
+  display: flex;
+padding: 0 48px 0 24px;
+
+align-items: center;
+flex: 1 0 0;
+height: 65px;
+width: 1000px;
+}
+.number_sequence{
+  color: var(--Solids-Secondary, #18506D);
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+width: 26px;
+height: 35px;
+padding-right: 50px;
+}
+.accordian-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.accordian-title .title_text{
+color: var(--Neutral-Black, #000);
+/* Desktop/H7 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 138.889% */
+text-transform: uppercase;
+}
+
+.accordian-title .open_btn{
+  color: var(--Neutral-Black, #000);
+font-family: "Font Awesome 6 Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px; /* 112.5% */
+text-transform: uppercase;
+}
+.accordion_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_second{
+  background-image: url(assets/banner_2.jpg);
+  object-fit: contain;
+  display: flex;
+height: 508px;
+padding: 80px 50px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-repeat: no-repeat;
+  background-size: 100% 508px;
+  position: relative;
+}
+.sweepstakes_anu{
+  margin-top: 400px;
 }
