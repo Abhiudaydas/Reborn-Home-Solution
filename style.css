@@ -1412,3 +1412,161 @@ background-repeat: no-repeat;
 .sweepstakes_anu{
   margin-top: 400px;
 }
+.review_box{
+  display: flex;
+padding: 80px 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 65px;
+align-self: stretch;
+width: 100%;
+height: 567px;
+
+}
+.review_img{
+  width: 540px;
+height: 540px;
+flex-shrink: 0;
+position: relative;
+}
+.review_img img{
+  border: 8.16px solid var(--Neutral-White, #FFF);
+  width: 510px;
+height: 510px;
+flex-shrink: 0;
+z-index: 10;
+padding: 0px;
+margin: 0px;
+}
+.review_text_box{
+ display: flex;
+width: 540px;
+flex-direction: column;
+align-items: flex-start;
+
+flex-shrink: 0;
+
+}
+.review_content{
+  display: flex;
+width: 1110px;
+justify-content: space-between;
+align-items: center;
+}
+.review_text_box h4{
+  color: var(--Neutral-Black, #000);
+/* Desktop/H4 */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 113.889% */
+text-transform: capitalize;
+margin: 0px;
+}
+.google_review{
+  color: var(--Neutral-Black, #000);
+/* Global/Body Bold */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+}
+.google_review i{
+  color: var(--Solids-Primary, #B41C39);
+font-family: "Font Awesome 6 Brands";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+text-transform: uppercase;
+padding-right: 7px;
+padding-top: 10px;
+padding-bottom: 20px;
+
+}
+.quotes{
+  color: #18506D;
+display: flex;
+align-items: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+padding-bottom: 20px;
+}
+.quotes .double_quotes{
+  padding-right: 15px;
+}
+.quotes .review_star{
+  color:#E8B835;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px; /* 280% */
+text-transform: uppercase;
+}
+.review_para{
+  color: var(--Neutral-Black, #000);
+/* Global/Body */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+padding-bottom: 10px;
+}
+.review_name{
+  color: var(--Neutral-Black, #000);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 165%; /* 23.1px */
+margin: 0px;
+}
+.review_state{
+  color: var(--Neutral-Black, #000);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 165%;
+
+margin: 0px;
+}
+
+.review_elips{
+  display: flex;
+align-items: flex-start;
+height: 30px;
+font-size: 30px;
+font-weight: 900;
+width: 48px;
+color: #B41C39;
+}
+.light_border{
+  position: absolute;
+  width: 510px;
+height: 510px;
+border: 7px solid #80CAC5;
+top: -20px;
+left: -20px;
+z-index: -1;
+}
+.dark_border{
+  position: absolute;
+  width: 510px;
+height: 510px;
+border: 7px solid #0C2A46;
+bottom: 10px;
+right: 10px;
+z-index: -1;
+}
+.review_section{
+  padding-bottom: 80px;
+}
