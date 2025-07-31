@@ -1543,10 +1543,10 @@ margin: 0px;
 .review_elips{
   display: flex;
 align-items: flex-start;
-height: 30px;
-font-size: 30px;
+height: 50px;
+font-size: 50px;
 font-weight: 900;
-width: 48px;
+width: 60px;
 color: #B41C39;
 }
 .light_border{
@@ -1569,4 +1569,104 @@ z-index: -1;
 }
 .review_section{
   padding-bottom: 80px;
+}
+.affilates{
+  display: flex;
+width: 100%;
+padding: 80px 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+height: 285px;
+
+}
+.affilates_box{
+  display: flex;
+width: 1110px;
+justify-content: space-between;
+align-items: center;
+}
+.affilates_box img{
+  width: 115px;
+height: 115px;
+flex-shrink: 0;
+
+}
+.background_content{
+  background-image: url(assets/banner_3.webp);
+  width: 100%;
+height: 338px;
+flex-shrink: 0;
+background-repeat: no-repeat;
+  background-size: 100% 338px;
+  position: relative;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+
+}
+
+.content_bg_box{
+  display: flex;
+width: 1110px;
+padding: 32px 35px;
+flex-direction: column;
+align-items: center;
+box-shadow: 0 -3px 20px 0 rgba(0, 0, 0, 0.10);
+height: 282px;
+background-color: white;
+z-index: 10;
+position: absolute;
+top: -100px;
+justify-content: center;
+margin: 0;
+}
+.content_bg_box h5{
+  color: var(--Solids-Secondary, #18506D);
+/* Desktop/H5 */
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 37px; /* 132.143% */
+text-transform: uppercase;
+padding-bottom: 10px;
+margin: 0;
+}
+.content_bg_box h4{
+  color: var(--Neutral-Black, #000);
+/* Desktop/H4 */
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 113.889% */
+text-transform: capitalize;
+padding-bottom: 10px;
+margin: 0;
+}
+
+.line_btw{
+  width: 540px;
+height: 1px;
+color: #80CAC5;
+padding-bottom: 10px;
+margin: 0;
+}
+.content_bg_box p{
+  color: var(--Neutral-Black, #000);
+text-align: center;
+/* Global/Body */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+margin: 0;
+padding-bottom: 10px;
+}
+.bg_content_btn{
+  width: 100%;
 }
